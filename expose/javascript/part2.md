@@ -75,6 +75,7 @@
     When we call `modifyArray([1,2,3], doSomething)`, the function `doSomething(num)` is expected to be called back to calculate the doubble of the number in the input array every time the code on line 4 is executed, then the result will be added to `newArr` once `doSomething(num)` is done. 
     
 19. The output is:
+
     1
     
     4
