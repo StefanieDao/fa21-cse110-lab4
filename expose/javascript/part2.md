@@ -20,6 +20,7 @@
 
 11.  It will return a new array `[ 50, 100, 150 ]` stored in `discounted`, which is an array of prices after applying dicounting to the array. Even though `discounted` is a constant array, its content (values inside the array can be modified but we just can't reference `discounted` to a new array)
 
+
 ### Data Type
 12. 
   A. student.name
@@ -31,6 +32,7 @@
   D. student['Favorite Teacher'].name
   
   E. student.courseLoad[0]
+  
   
 ### Basic Operators & Type  
 13.
@@ -50,6 +52,7 @@
   
   H. NaN (undefined becomes NaN)
 
+
 14. 
   A. true (string '2' becomes number 2, so the output is true as 2 > 1)
   
@@ -63,7 +66,19 @@
   
   F. true (Boolean(2) becomes true because 2 is a non-zero number)
 
+
 15. Operands of different types are converted to numbers by the equality operator `==`. For `===`, it strictly checks the equality without type conversion, so any comparion of different types will return false.
+
+
+17. The result will be `[ 2, 4, 6 ]`. 
+    
+    When we call `modifyArray([1,2,3], doSomething)`, the function `doSomething(num)` is expected to be called back to calculate the doubble of the number in the input array every time the code on line 4 is executed, then the result will be added to `newArr` once `doSomething(num)` is done. 
+    
+19. The output is:
+    1
+    4
+    3
+    2
 
 
 
